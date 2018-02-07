@@ -31,6 +31,5 @@ systemChat("Done! I have opened the vault");
 dayz_combination = _vault getVariable["CharacterID","0"];
 _vault spawn player_unlockVault;
 dayz_actionInProgress = false;
-_Message = format ["%1 (%2) HAS BROKEN INTO A SAFE OR LOCKBOX @ %3  Owner: %4",dayz_playerName,dayz_playerUID,(mapGridPosition getPos player),_ownerID];
-["CrackSafe_log",_Message,true] call fnc_log;                             
+                
 };
