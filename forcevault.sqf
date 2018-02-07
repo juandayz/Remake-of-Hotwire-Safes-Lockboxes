@@ -21,9 +21,7 @@ if (_isunlockable) then {
 
 if ([0.10] call fn_chance)   exitWith {
 dayz_actionInProgress = false;
-systemChat("Bad Luck, i could not open it and broke the Hotwire Kit");
-_Message = format ["%1 (%2) IS TRYING TO BREAK INTO A SAFE OR LOCKBOX @ %3  Owner: %4",dayz_playerName,dayz_playerUID,(mapGridPosition getPos player),_ownerID];
-["CrackSafe_log",_Message,true] call fnc_log;                            
+systemChat("Bad Luck, i could not open it and broke the Hotwire Kit");                           
 };
 
 systemChat("Done! I have opened the vault");
