@@ -1,5 +1,8 @@
 # Remake-of-Hotwire-Safes-Lockboxes
 
+PLEASE DONATE: https://github.com/juandayz/Remake-of-Hotwire-Safes-Lockboxes/blob/master/DONATION.md
+
+
  1-You need a custom fn_selfactions.sqf 
  find: 
  ```
